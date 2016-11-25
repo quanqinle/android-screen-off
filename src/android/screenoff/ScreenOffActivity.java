@@ -5,7 +5,7 @@ import android.app.admin.DevicePolicyManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.os.Bundle;
-import android.os.Vibrator;
+//import android.os.Vibrator;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -28,7 +28,7 @@ public class ScreenOffActivity extends Activity {
 		turnScreenOff(getApplicationContext());
 
 		// then provide feedback
-		((Vibrator) getSystemService(Context.VIBRATOR_SERVICE)).vibrate(50);
+		/*((Vibrator) getSystemService(Context.VIBRATOR_SERVICE)).vibrate(50);*/
 
 		// schedule end of activity
 		final Activity activity = this;

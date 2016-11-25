@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">锁屏</string>
+    <string name="device_admin_not_enabled">锁屏APP没有被标识为设备管理员！请检查“设置-安全-设备管理”</string>
+    <string name="device_admin_description">点击应用图标熄灭屏幕并锁定设备，减少电源键的使用</string>
+    <string name="admin_receiver_status_enabled">锁屏APP已经被添加为设备管理员</string>
+    <string name="admin_receiver_status_disabled">锁屏APP已经被取消设备管理员</string>
+
+</resources>
