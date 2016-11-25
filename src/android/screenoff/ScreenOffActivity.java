@@ -19,7 +19,7 @@ public class ScreenOffActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_screen_off);
+//		setContentView(R.layout.activity_screen_off);
 		turnScreenOffAndExit();
 	}
 
